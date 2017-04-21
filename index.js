@@ -136,7 +136,7 @@ function mount_with_folder(app, routes_folder_path) {
   // static server
   app.use(express.static(path.join(r, 'public')));
 
-  app.get('/apie.json', function (req, res) {
+  app.get('/api.json', function (req, res) {
     res.json({
       data: stack
     })
