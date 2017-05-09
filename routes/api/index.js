@@ -1,5 +1,5 @@
 module.exports = {
-    "path": "/home",
+    // "path": "/home",
     "body": {
         status: {
             code: 0,
